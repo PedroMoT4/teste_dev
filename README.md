@@ -12,7 +12,7 @@ Este projeto conecta-se a um banco de dados PostgreSQL, cria uma tabela de forma
 
 ## Pré-requisitos
 
-- **Python 3.x**: O projeto requer Python na versão 3.x.
+- **Python 3.x**: O projeto requer Python na versão 3.12.4 ou mais
 - **PostgreSQL**: O banco de dados PostgreSQL deve estar instalado e ativo no ambiente local ou acessível via rede.
 - **Bibliotecas Python**:
   - `psycopg2`: Para conexão e interação com o PostgreSQL.
@@ -48,4 +48,4 @@ As variáveis para conexão com o Banco de Dados se encontram no arquivo `db.py`
 Para rodar o programa, execute o arquivo `db.py` com o seguinte comando:
 
 ```bash
-python ./db.py
+python db.py
