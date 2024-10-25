@@ -28,6 +28,8 @@ DB_USER = "postgres"
 DB_PASSWORD = "houer_test_dev"
 ```
 
+## Instalação
+
 1. **Clone o repositório** (ou faça o download do código):
 
     ```bash
