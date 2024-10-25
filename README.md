@@ -21,6 +21,12 @@ Este projeto conecta-se a um banco de dados PostgreSQL, cria uma tabela de forma
 ## Banco de Dados
 
 As variáveis para conexão com o Banco de Dados se encontram no arquivo `db.py`
+```
+DB_HOST = "localhost"
+DB_NAME = "teste_dev"
+DB_USER = "postgres"
+DB_PASSWORD = "houer_test_dev"
+```
 
 1. **Clone o repositório** (ou faça o download do código):
 
