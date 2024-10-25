@@ -78,7 +78,7 @@ def main():
 	path = 'escolas122022.csv' # Importante deixar o arquivo no mesmo diretorio do arquivo db.py
 
 	#Utilizando o encoding 'cp860' para o carregamento sem erros
-	escolas = pd.read_csv(path, sep =';', encoding='cp860')
+	escolas = pd.read_csv(path, sep =';', encoding='latin1')
 
 	#Nome das colunas e valores
 	lista_colunas = list(escolas.columns)
